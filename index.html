@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Yamah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script defer src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <figure data-aos="fade-down" data-aos-duration="1000">
+          <!-- <img id="personal-logo" src="./assets/logo.svg" alt=""> -->
+          DY
+        </figure>
+        
+        <nav class="desktop">
+            <ul class="nav__link--list" data-aos="fade-down" data-aos-duration="1000">
+              <li class="nav__link" onclick="toggleModal()">
+                <a href="#" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                ">About</a>
+              </li>
+              <li class="nav__link">
+                <a href="#projects" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                ">Projects</a>
+              </li>
+              <li class="nav__link" onclick="toggleModal()">
+                <a href="#" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                ">Contact</a>
+              </li>
+              <li class="nav__link click" onclick="toggleContrast()">
+                <a href="#" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                "><i class="fas fa-adjust"></i>toggle</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- //hand buger menu -->
+          <div class="handbuger click" data-aos="fade-down" data-aos-duration="1000">
+           <p>MENU</p>
+          </div>
+    </header>
+    <section class="hero-section" onmousemove="moveBackground(event)">
+        <div class="container">
+            <div class="header__content">
+              <p class="header-hey" data-aos="fade-up" data-aos-duration="1000">Hi</p>
+              <h1 class="header-title orange" data-aos="fade-up" data-aos-duration="1500">I'm Joseph.</h1>
+              <p class="header__para" data-aos="fade-up" data-aos-duration="2000">
+                I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
+                with great user
+                experiences.
+                Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
+              </p>
+              <div class="social__list">
+                <a href="https://www.linkedin.com/in/david-bragg-5b23a1176/" target="_blank" class="social__link click">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/davidbr4gg" target="_blank" class="social__link click">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
+                  <i class="fas fa-file-pdf"></i>
+                </a>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+    <div class="some-project-wrapper" id="projects">
+        <h2 class="some-projects" data-aos="fade-up" data-aos-duration="1500">
+            Here are some of my <span class="orange">projects</span>
+        </h2>    
+    </div>
+    
+
+    <section class="projects">
+        <div class="project-image" data-aos="fade-right" data-aos-duration="1500">
+            <img src="./assets/blinker mockup.png">
+        </div>
+      </div>
+      
+    
+    <div class="project-wrapper">
+        <p class="project-tag orange" data-aos="fade-up" data-aos-duration="2000">
+          PROJECT NAME
+        </p>
+      <h2 class="nproject-name" data-aos="fade-up" data-aos-duration="2000">
+        Car Sales
+      </h2>
+      <h4 class="project-stack" data-aos="fade-up" data-aos-duration="2000">
+        Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+      </h4>
+      <p class="project-description" data-aos="fade-up" data-aos-duration="2000">
+        Brox a car sales company based in italy. They showcase high quality end user car to the buyers
+      </p>
+      <a href="#" class="project-link" data-aos="fade-up" data-aos-duration="2000">View Project
+        ⟶
+      </a>
+    </div>
+  </section>
+  
+  <section class="projects">
+    <div class="project-image" data-aos="fade-left" data-aos-duration="2000">
+        <img src="./assets/Frontend Simplified.png" class="project__img" alt="">
+    </div>
+  </div>
+  
+
+<div class="project-wrapper">
+    <p class="project-tag orange" data-aos="fade-up" data-aos-duration="2000">
+      PROJECT NAME
+    </p>
+  <h2 class="nproject-name" data-aos="fade-up" data-aos-duration="2000">
+    Frontend Simplified
+  </h2>
+  <h4 class="project-stack" data-aos="fade-up" data-aos-duration="2000">
+    Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+  </h4>
+  <p class="project-description" data-aos="fade-up" data-aos-duration="2000">
+    Frontend Simplified is a side project built to not only teach people how to code, but teach them how
+    to get job ready in the quickest way possible. Users of this platform can join my 2,300+ member
+    community
+    including engineers from Google, Canva, Atlassian, Apple, Microsoft and Salesforce.
+    The entire platform and courses was built by myself
+    and I'm
+    planning to
+    release the MVP in the next few weeks.
+  </p>
+  <a href="#" class="project-link" data-aos="fade-up" data-aos-duration="2000">View Project
+    ⟶
+
+  </a>
+  
+</div>
+</section>
+
+<section class="projects">
+    <div class="project-image" data-aos="fade-right" data-aos-duration="2000">
+        <img src="./assets/google mockup.png" class="project__img" alt="">
+    </div>
+  </div>
+  
+
+<div class="project-wrapper">
+    <p class="project-tag orange" data-aos="fade-up" data-aos-duration="2000">
+      PROJECT NAME
+    </p>
+  <h2 class="nproject-name" data-aos="fade-up" data-aos-duration="2000">
+    Google In-Store
+  </h2>
+  <h4 class="project-stack" data-aos="fade-up" data-aos-duration="2000">
+    Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+  </h4>
+  <p class="project-description" data-aos="fade-up" data-aos-duration="2000">
+    Google In-Store is a platform allowing Google retail employees to report any issues with their
+    store products. Once an issue is reported, it is posted to an API which populates a separate
+    platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
+    the sole
+    front-end developer of this application.
+  </p>
+  <a href="#" class="project-link" data-aos="fade-up" data-aos-duration="2000">View Project 
+    ⟶
+  </a>
+
+</div>
+</section>
+
+<section class="projects">
+    <div class="project-image" data-aos="fade-left" data-aos-duration="2000">
+        <img src="./assets/blinker mockup.png">
+    </div>
+  </div>
+  
+
+<div class="project-wrapper">
+    <p class="project-tag orange" data-aos="fade-up" data-aos-duration="2000">
+      PROJECT NAME
+    </p>
+  <h2 class="nproject-name" data-aos="fade-up" data-aos-duration="2000">
+    Car Sales
+  </h2>
+  <h4 class="project-stack" data-aos="fade-up" data-aos-duration="2000">
+    Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+  </h4>
+  <p class="project-description" data-aos="fade-up" data-aos-duration="2000">
+    Brox a car sales company based in italy. They showcase high quality end user car to the buyers
+  </p>
+  <a href="#" class="project-link" data-aos="fade-up" data-aos-duration="2000">View Project
+    ⟶
+  </a>
+
+</div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo" data-aos="fade-up" data-aos-duration="2000">
+          <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+        </figure>
+      </a>
+      <div class="footer__social--list" data-aos="fade-up" data-aos-duration="2000">
+        <a href="https://github.com/davidbr4gg" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+      ">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/david-bragg-5b23a1176/" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+      ">
+          LinkedIn
+        </a>
+        <a href="#" onclick="toggleModal()" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+      ">
+          Contact
+        </a>
+        <a href="./assets/David Bragg Resume.pdf" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+      ">
+          Resume
+        </a>
+      </div>
+      <span class="footer__logo--popper" data-aos="fade-up" data-aos-duration="2000">
+       <a href="#" class="
+       footer__social--link
+       link__hover-effect
+       link__hover-effect--white">Scroll to top
+        <i class="fas fa-arrow-up"></i></a>
+      </span>
+      <div class="footer__copyright">Copyright &copy; 2023 Joseph Yamah</div>
+    </div>
+  </div>
+</footer>
+
+     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ANIMATED SCROLL DOWN -->
+    <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+    <!-- FLOATING MESSAGE -->
+    <a href="#" >
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fas fa-envelope"></i>
+        </button>
+      </a>
+
+      <!-- MODAL -->
+      <div class="modal-blur"></div>
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+          <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+          <p class="modal__para">
+            I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
+            websites for top-tech companies like <b class="orange">Google</b> and <b class="orange">Canva</b>.
+    
+            I currently solve extremely difficult engineering
+            problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
+              class="orange">MobX</b>
+            in Canva's Video team.
+          </p>
+          <div class="modal__languages">
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt="">
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                alt="">
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                alt="">
+              <span class="language__name">JavaScript</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" alt="">
+              <span class="language__name">TypeScript</span>
+            </figure>
+  
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://mobx.js.org/img/mobx.png" alt="">
+              <span class="language__name">MobX</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                alt="">
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="">
+              <span class="language__name">Vue</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" alt="">
+              <span class="language__name">Nuxt</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal__half modal__contact">
+          <span class="modal__exit click" onclick="toggleModal()">X</span>
+          <h3 class="modal__title modal__title--contact">
+            Let's have a chat!
+          </h3>
+          <h3 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h3>
+          <form id="contact__form" onsubmit="contact(event)">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="user_name" type="text" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="user_email" type="email" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea class="input" name="message" type="text" required></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">
+              Send it my way
+            </button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fas fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--success">
+            Thanks for the message! Looking forward to speaking to you soon.
+          </div>
+        </div>
+      </div>
+      
+      <!-- //shapess -->
+      <img src="./assets/semi circle.svg" class="shape shape--0">
+      <img src="./assets/circle.svg" class="shape shape--1">
+      <img src="./assets/squiggly.svg" class="shape shape--2">
+      <img src="./assets/circle.svg" class="shape shape--3">
+      <img src="./assets/triangle.svg" class="shape shape--4">
+      <img src="./assets/circle.svg" class="shape shape--5">
+      <img src="./assets/squiggly.svg" class="shape shape--6">
+      <img src="./assets/circle.svg" class="shape shape--7">
+      <img src="./assets/semi circle.svg" class="shape shape--8">
+
+      <!-- mobile navbar -->
+      <nav class="mobile">
+        <div onclick="toggleModal()"  class="nav__link click">
+          <a href="#">About</a>
+        </div>
+        <div onclick="togglehidenav()"  class="nav__link click">
+          <a href="#projects"  class="nav__link click">Projects</a>
+        </div>
+        <div onclick="toggleModal()"  class="nav__link click">
+          <a href="#">Contact</a>
+        </div>
+        <li class="nav__link click" onclick="toggleContrast()">
+          <a href="#" class="
+            link__hover-effect
+            link__hover-effect--black
+          "><i class="fas fa-adjust"></i>toggle</a>
+        </li>
+      </nav>
+      
+     
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("-uR_rgDGYqwm7a-7a");
+   })();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+   AOS.init(); 
+</script>
+<script src="script.js"></script> 
+</body>
+</html>
