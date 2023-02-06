@@ -158,6 +158,9 @@ section.projects {
 }
 
 @media(max-width:320px){
+    body{
+        font-size: 16px;
+    }
     .header-title {
         font-size: 50px;
     }
@@ -172,7 +175,5 @@ h2.nproject-name {
     font-size: 30px;
     margin-top: -8px;
 }
-.footer__copyright {
-    font-size: 16px;
-}
+
 }
