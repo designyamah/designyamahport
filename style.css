@@ -638,6 +638,7 @@ header.scrolled{
   background-color: #f06449;
   height: 70px;
   color: white;
+  box-shadow: 0 3px 8px 0 rgb(240 101 73 / 61%);
 }
 
 
