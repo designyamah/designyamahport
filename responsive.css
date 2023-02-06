@@ -165,5 +165,14 @@ section.projects {
     p.project-description {
         font-size: 16px;
     }
+    h4.project-stack {
+        font-size: 12px;
 }
-  
+h2.nproject-name {
+    font-size: 30px;
+    margin-top: -8px;
+}
+.footer__copyright {
+    font-size: 16px;
+}
+}
