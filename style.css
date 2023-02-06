@@ -637,12 +637,13 @@ input:focus, textarea:focus {
 header.scrolled{
   background-color: #f06449;
   height: 70px;
+  color: white;
 }
+
 
 
 header.scrolled .nav__link--anchor {
   color: white;
- 
   }
 /* color: #f06449; */
 
