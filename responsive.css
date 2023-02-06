@@ -154,13 +154,12 @@ section.projects {
 .modal__half {
     width: 100%;
     padding: 20px;
-}
+ } 
 }
 
 @media(max-width:320px){
     .header-title {
         font-size: 50px;
-        margin-bottom: -13px;
     }
 
     p.project-description {
