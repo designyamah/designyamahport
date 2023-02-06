@@ -81,8 +81,10 @@ toggleTag.addEventListener("click", function () {
   navTag.classList.toggle("open")
   if (navTag.classList.contains("open")) {
     toggleTag.innerHTML = `CLOSE`
+    toggleTag.style.color = "white";
   } else {
     toggleTag.innerHTML = `MENU`;
+    toggleTag.style.color = "#333";
   }  
 })
 
