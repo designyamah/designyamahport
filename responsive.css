@@ -43,8 +43,13 @@ nav.mobile{
 }
 
 .handbuger{
-      font-weight: bold;
-      display: none;
+     
+}
+
+.handbuger-wrapper{
+    gap: 10px;
+    font-weight: bold;
+    display: none;
 }
 
 
@@ -60,12 +65,16 @@ nav.mobile{
   }
 
   @media(max-width:500px){
+    i.fas.fa-adjust {
+        font-size: 16px;
+    }
+    
       nav.desktop{
           display: none;
       }
 
-      .handbuger{
-        display: block;
+      .handbuger-wrapper{
+        display: flex;
     }
 
     header{

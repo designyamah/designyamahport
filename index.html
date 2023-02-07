@@ -51,8 +51,14 @@
           </nav>
 
           <!-- //hand buger menu -->
-          <div class="handbuger click " data-aos="fade-down" data-aos-duration="1000">
-           <p>MENU</p>
+          <div class="handbuger-wrapper" data-aos="fade-down" data-aos-duration="1000">
+            <li class="nav__link click" onclick="toggleContrast()">
+              <a href="#" class="
+                nav__link--anchor
+                link__hover-effect--black
+              "><i class="fas fa-adjust"></i></a>
+            </li>
+           <p class="handbuger click">MENU</p>
           </div>
     </header>
     <section class="hero-section" onmousemove="moveBackground(event)">
@@ -404,12 +410,6 @@
         <div onclick="toggleModal()"  class="nav__link click">
           <a href="#">Contact</a>
         </div>
-        <li class="nav__link click" onclick="toggleContrast()">
-          <a href="#" class="
-            link__hover-effect
-            link__hover-effect--black
-          "><i class="fas fa-adjust"></i>toggle</a>
-        </li>
       </nav>
       
      
