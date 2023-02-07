@@ -68,7 +68,7 @@ nav.mobile{
     i.fas.fa-adjust {
         font-size: 16px;
     }
-    
+
       nav.desktop{
           display: none;
       }
@@ -145,8 +145,13 @@ section.projects {
     align-items: center;
 }
 
+footer{
+    padding: 15px 0;
+}
+
 .footer__row {
     gap: 15px;
+    margin-top: -27px;
 }
 
 
