@@ -712,6 +712,10 @@ header.scrolled .link__hover-effect:hover:after {
   color: #242424;
 }
 
+.dark-theme p.project-description {
+  color: #cac6c6;
+}
+
 .dark-theme p.project-tag,
 .dark-theme h4.project-stack
 {
