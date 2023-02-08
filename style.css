@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Syne";
-    src: url(assets/syne-regular.woff2), url(assets/syne-regular.woff);
+    src: url(assets/TTFirsNeue-Regular.woff), url(assets/TTFirsNeue-Regular.woff2);
   }
   
 @font-face {
     font-family:  "Syne Extra";
-    src: url(assets/syne-extra.woff2), url(assets/syne-extra.woff);
+    src: url(assets/TTFirsNeue-Bold.woff), url(assets/TTFirsNeue-Bold.woff2);
   }
   
 * {
@@ -125,7 +125,6 @@ padding: 0 20px;
     font-size: 90px;
     margin-top: -26px;
     margin-bottom: -9px;
-    /* font-family: "Syne Extra", Arial; */
 }
 
 .header-hey{
@@ -282,7 +281,7 @@ section.projects {
   }
 
   p.project-description{
-    font-size: 20px;
+    font-size: 18px;
     max-width: 486px;
     margin-bottom: 15px;
     
