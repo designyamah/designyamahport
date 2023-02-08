@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Syne";
+    font-family: "TTFirsNeue";
     src: url(assets/TTFirsNeue-Regular.woff), url(assets/TTFirsNeue-Regular.woff2);
   }
   
 @font-face {
-    font-family:  "Syne Extra";
+    font-family:  "TTFirsNeue-bold";
     src: url(assets/TTFirsNeue-Bold.woff), url(assets/TTFirsNeue-Bold.woff2);
   }
   
@@ -16,7 +16,7 @@
 
 body{
     background-color: rgb(245, 245, 245);
-    font-family: "Syne", Arial;
+    font-family: "TTFirsNeue", Arial;
     color:#333;
     font-size: 21px;
     line-height: 1.4;
