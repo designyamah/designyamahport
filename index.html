@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-
+      <div class="nav-container container">
         <figure data-aos="fade-down" data-aos-duration="1000" style="font-weight: 900;">
           DY
         </figure>
@@ -62,6 +62,7 @@
             </li>
            <p class="handbuger click">MENU</p>
           </div>
+      </div>
     </header>
     <section class="hero-section" onmousemove="moveBackground(event)">
         <div class="container">
@@ -108,7 +109,7 @@
           PROJECT NAME
         </p>
       <h2 class="nproject-name">
-       Design Quotesknowledge
+       Design Quotes
       </h2>
       <h4 class="project-stack">
         Html, CSS, JavaScript
@@ -141,7 +142,7 @@ A visually appealing and informative platform that provides visitors with a cura
     Html, CSS, JavaScript
   </h4>
   <p class="project-description">
-    A web-based application that showcases a collection of the most sought-after movies to users. The app can be accessed through a web browser and provides a user-friendly interface that allows users to browse and search for movies by title, genre. Overall, the web-based app provides a convenient and easy-to-use way for movie enthusiasts to discover, track, and share their favorite movies.
+    A web-based application that showcases a collection of the most sought-after movies to users. The app can be accessed through a web browser and provides a user-friendly interface that allows users to browse and search for movies by title, genre. Overall, the web-based app provides a convenient and easy-to-use way for movie enthusiasts to discover, track, and share their favorite movies with friends and family.
   </p>
   <a href="https://mymovsearch.netlify.app/" target="_blank" class="project-link">View Project
     ⟶
@@ -206,11 +207,6 @@ A visually appealing and informative platform that provides visitors with a cura
 <footer>
   <div class="container">
     <div class="row footer__row wow fadeInUp" data-wow-duration="2s">
-      <a href="#" class="footer__anchor">
-        <figure class="footer__logo">
-          <img src="./assets/logo.svg" class="footer__logo--img" alt="">
-        </figure>
-      </a>
       <div class="footer__social--list">
         <a href="https://github.com/davidbr4gg" class="
         footer__social--link
@@ -290,17 +286,21 @@ A visually appealing and informative platform that provides visitors with a cura
       <!-- MODAL -->
       <div class="modal-blur"></div>
       <div class="modal">
+        <span class="modal__exit click" onclick="toggleModal()">CLOSE</span>
         <div class="modal__half modal__about">
-          <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
-          <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+          <h3 class="modal__title modal__title--about" style="color: black;">Here's a bit about me.</h3>
           <p class="modal__para">
-            I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
+            <!-- I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
             websites for top-tech companies like <b class="orange">Google</b> and <b class="orange">Canva</b>.
     
             I currently solve extremely difficult engineering
             problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
               class="orange">MobX</b>
-            in Canva's Video team.
+            in Canva's Video team. -->
+
+            I'm a <b class="orange">frontend software engineer</b> with background in developing user-friendly and responsive web interfaces using HTML, CSS, and JavaScript. I have experience working with various web technologies and framework such as React and Wordpress.<br><br> I also have an understanding of design principles and user experience, which helps me to create interfaces that are not only functional but also visually appealing. In addition, 
+            am always striving to stay up-to-date with the latest technologies and best practices in the field to ensure that my work is always of the highest quality.
+
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
@@ -346,7 +346,7 @@ A visually appealing and informative platform that provides visitors with a cura
           </div>
         </div>
         <div class="modal__half modal__contact">
-          <span class="modal__exit click" onclick="toggleModal()">X</span>
+          
           <h3 class="modal__title modal__title--contact">
             Let's have a chat!
           </h3>

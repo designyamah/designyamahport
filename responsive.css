@@ -98,8 +98,8 @@ nav.mobile{
 }
 
 .header__para {
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 17px;
+    line-height: 1.5;
     max-width: 509px;
 }
 
@@ -131,7 +131,6 @@ section.projects {
 
 .project-image {
     width: 100%;
-    padding: 20px;
 }
 
 .footer__social--list {
@@ -147,7 +146,6 @@ footer{
 
 .footer__row {
     gap: 15px;
-    margin-top: -27px;
 }
 
 
@@ -201,6 +199,40 @@ a.project-link {
 
 .scroll{
     display: none;
+}
+
+.modal__exit {
+    position: sticky;
+    top: 0;
+    background: #f06449;
+    border-bottom: 1px solid #f06449;
+    display: block;
+    border-radius: 0%;
+    width: 100%;
+    font-size: 18px;
+    right: 0px;
+    color: black;
+    font-size: 36px;
+    z-index: 999999999999;
+    font-style: normal;
+    font-size: 17px;
+    display: flex;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.modal__sub-title {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.modal__para {
+    margin-bottom: 12px;
+    color: #454545;
+    line-height: 1.5;
 }
 
 }
