@@ -259,7 +259,7 @@ p.project-description{
   font-size: 18px;
   /* opacity: 0.9; */
   max-width: 486px;
-  color: #454545;
+  color: #323232;
   margin-bottom: 15px;
 }
 
@@ -612,7 +612,7 @@ width: 100%;
 }
 
 .dark-theme{
-background-color: #242424;
+background-color: #151718;
 color: white;
 }
 
@@ -628,7 +628,7 @@ color: white;
 color: white;
 }
 .dark-theme section {
-background-color: #242424;
+background-color: #151718;
 }
 .dark-theme #personal-logo {
 filter: none;
