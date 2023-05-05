@@ -203,8 +203,8 @@ a.project-link {
 .modal__exit {
     position: sticky;
     top: 0;
-    background: #f06449;
-    border-bottom: 1px solid #f06449;
+    background: white;
+    border-bottom: 1px solid black;
     display: block;
     border-radius: 0%;
     width: 100%;
@@ -218,7 +218,7 @@ a.project-link {
     display: flex;
     padding-right: 20px;
     padding-top: 5px;
-    color: white;
+    color: black;
     align-items: center;
     justify-content: flex-end;
 }
