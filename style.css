@@ -341,6 +341,9 @@ width: 100%;
 .footer__social--link,
 .footer__copyright,.scroll-top {color: black;}
 
+.footer__copyright {
+  opacity: 0.7;
+}
 /* 
 
 MODAL 
@@ -662,8 +665,14 @@ opacity: 1;
  .dark-theme header.scrolled .nav__link--anchor {color: white;}
 /* color: #f06449; */
 
-.dark-theme .footer__social--link, .footer__copyright, .scroll-top {
+.dark-theme .footer__social--link,
+.dark-theme .footer__copyright,
+.dark-theme .scroll-top {
   color: white;
+}
+
+.dark-theme .footer__copyright {
+  opacity: 0.7;
 }
 
 /* ///for the toogle using js */
