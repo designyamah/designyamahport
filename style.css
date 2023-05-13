@@ -18,7 +18,7 @@ body{
   /* background-color: rgb(245, 245, 245); */
   font-family: "TTFirsNeue", Arial;
   /* color:#333; */
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.5;
   overflow-x: hidden;
 }
@@ -268,21 +268,19 @@ h2.nproject-name{
 }
 
 h4.project-stack {
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0.7;
   color: #f06449;
   font-weight: 100;
   margin-bottom: 15px;
-
 }
 
 a.project-link{
   color: #f06449;
-  font-size: 15px;
+  font-size: 16px;
   /* border-bottom: 2px solid; */
   font-weight: 600;
   position: relative;
-
 }
 
 a.project-link:hover{
