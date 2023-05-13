@@ -43,7 +43,7 @@ header{display: flex;/* justify-content: space-between; */align-items: center;wi
 
 .nav__link--list {
 display: flex;
-gap: 55px;
+gap: 80px;
 }
 
 a{
